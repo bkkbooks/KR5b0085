@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0085/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0085/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃庭內景玉經註(一)
+  date: '2015-08-28 23:49:10.052511'
+  source:
+    repository: kanripo
+    path: KR5b0085
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0085_000-ZTDZ.yaml, hash: 'sha256:72dac3f12196aa0287ce73b58526c2316fa86dcf7098681323cff91bbb51361e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0085_000-ZTDZ.markers.yaml, hash: 'sha256:a8a9e461d92a27cc09e00d5ae0a415547658594835f16adb45fd62f62f16d70a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0085_SJB_000-060499c
+    span:
+    - body
+    - 0
+    - 10281
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:bc9480665419ccaca41c9418b98bd1e047c8978b791b8918d1365a41d7ca7567
